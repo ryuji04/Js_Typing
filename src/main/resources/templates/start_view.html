@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" type="text/css" href="../static/typing2.css">
+    <link rel="stylesheet" type="text/css" th:href="@{../typing2.css}">
+</head>
+
+<body>
+    <h1 class="title">TypingGame</h1>
+    <div class="container">
+    <form action="typing2.html" th:action="@{/typing2_controller/gaming}" method="post">
+        <button class="start_btn">start!</button>
+    </form>
+</div>
+    <script type="text/javascript" src="../static/typing2.js"></script>
+</body>
+
+</html>

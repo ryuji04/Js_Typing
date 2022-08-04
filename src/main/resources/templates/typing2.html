@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" type="text/css" href="../static/typing2.css">
+    <link rel="stylesheet" type="text/css" th:href="@{../typing2.css}">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="timer">
+            <label>
+                <p id="time">キーボードをタップしてね!</p>
+            </label>
+            <form action="result_view.html" th:action="@{/typing2_controller/showResult}" method="post">
+                <input id="score" type="hidden" name="score">
+            </form>
+        </div>
+        <div class="typing">
+            <label>
+                <p id="subject"></p>
+            </label>
+            <label>
+                <p id="roman_alphabet"></p>
+            </label><br>
+
+        </div>
+
+        <div class="result_btn_container">
+            <form action="result_view" th:action="@{/typing2_controller/showResult}" method="post">
+                <input id="send_score" type="hidden" name="score">
+                <button id="result_button">Result</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="../static/typing2.js" th:src="@{../typing2.js}"></script>
+</body>
+
+</html>

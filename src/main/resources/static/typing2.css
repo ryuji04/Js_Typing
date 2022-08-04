@@ -1,0 +1,139 @@
+
+
+
+body{
+    width: 100vw;
+ height: 100vh;
+ background-color:#ff7e1440;
+}
+
+.start_btn{
+   
+    font-size:70px;
+    font-weight: bold;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 3px #005ab3;
+    position: relative;
+    text-shadow:red 3px 3px 0px;
+    text-align: center;
+    background:  transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.wrapper{
+    width: 100vw;
+ height: 100vh;
+}
+
+.timer{
+    display:block;
+    text-align: center;
+}
+
+#time{
+    font-size:70px;
+  font-weight: bold;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 3px #005ab3;
+  position: relative;
+  text-shadow:red 3px 3px 0px
+}
+
+.title{
+    font-size:70px;
+    font-weight: bold;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 3px #005ab3;
+    position: relative;
+    text-shadow:red 3px 3px 0px;
+    text-align: center;
+}
+
+.typing{
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+#subject{
+    margin-top: 10%;
+    font-size:  50px;
+  font-weight: bold;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 3px #08090a;
+  position: relative;
+  text-shadow:#ffe100 3px 3px 0px
+
+}
+
+#roman_alphabet{
+    margin-top: 10%;
+    font-size:  30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.result{
+    font-size:70px;
+    font-weight: bold;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 3px #005ab3;
+    position: relative;
+    text-shadow:#ffe100 5px 3px 0px;
+    text-align: center;
+}
+
+#result_button{
+	font-size:70px;
+    font-weight: bold;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 3px #005ab3;
+    position: relative;
+    text-shadow:red 3px 3px 0px;
+    
+    background:  transparent;
+    border: none;
+    cursor: pointer;
+
+   
+}
+
+.result_btn_container{
+    justify-content: center;
+    display: flex;
+    margin-top:30px;
+}
+
+.score_label{
+	font-size:50px;
+    font-weight: bold;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 3px #005ab3;
+    position: relative;
+    text-shadow:#ffe100 3px 3px 0px;
+    
+}
+
+.result_wrapper{
+	text-align: center;
+	margin-top:25px;
+}
+
+
+
+
+
