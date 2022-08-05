@@ -27,5 +27,10 @@ public class Typing2Controller {
 		model.addAttribute("score", score);
 		return "result_view";
 	}
+	
+	@RequestMapping("/test")
+	public String test() {
+		return "test";
+	}
 
 }
